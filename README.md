@@ -6,3 +6,10 @@ This plugin creates a GUI with options to enter a target URL, a wordlist file, a
 
 <h1>pathscanner.py</h1>
 This plugin listens for HTTP requests and looks for URLs with common web application extensions such as PHP, ASP, ASPX, and JSP. If found, it initiates an active scan to test for vulnerabilities. 
+
+<h1>paramfinder.py</h1>
+This plugin listens for HTTP requests and looks for parameters in the request. If found, it issues an alert with the name of the parameter. 
+
+<h1>headerinject.py</h1>
+A header injection scanner is a tool used to check web applications for potential vulnerabilities related to header injection attacks. It works by sending various HTTP requests with modified headers to the target application and analyzing the responses for any unexpected behavior. The scanner can detect if the application is vulnerable to header injection attacks, which can allow an attacker to inject malicious code into the headers and potentially compromise the application or steal sensitive information. By identifying and addressing these vulnerabilities, the scanner helps improve the security of the web application.
+
