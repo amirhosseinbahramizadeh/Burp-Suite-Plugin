@@ -13,3 +13,4 @@ This plugin listens for HTTP requests and looks for parameters in the request. I
 <h1>headerinject.py</h1>
 A header injection scanner is a tool used to check web applications for potential vulnerabilities related to header injection attacks. It works by sending various HTTP requests with modified headers to the target application and analyzing the responses for any unexpected behavior. The scanner can detect if the application is vulnerable to header injection attacks, which can allow an attacker to inject malicious code into the headers and potentially compromise the application or steal sensitive information. By identifying and addressing these vulnerabilities, the scanner helps improve the security of the web application.
 
+<h2>To contact me, send a message on Telegram : @a_h_bahrami</h2>
